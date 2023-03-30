@@ -162,6 +162,10 @@ systemctl restart celestia-lightd
 journalctl -u celestia-lightd.service -f
 ```
 
+## If your node running succesfully, it should be like this
+![Bundlr](Github2.png)
+
+
 # Cheatseet
 
 ## Restart Node
