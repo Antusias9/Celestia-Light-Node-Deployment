@@ -146,7 +146,7 @@ nano /etc/systemd/system/celestia-lightd.service
 --metrics.tls=false --metrics --metrics.endpoint otel.celestia.tools:4318
 ```
 
-Put this Command in ExecStart variable, put it after --p2p.network blockspacerace
+Put this Command in ExecStart variable, after --p2p.network blockspacerace
 
 
 ## Reload and Restart Your Node
