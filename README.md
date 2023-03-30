@@ -5,7 +5,7 @@ Here is the guide for Light Node Blockspacerace deployment
 <a href="https://t.me/testnetzona" target="_blank">Join our channel to keep update about testnet</a>
 </p>
 
-![Bundlr](https://ibb.co/wNgwzWW)
+![Bundlr](Github.png)
 
 
 # Official Links
