@@ -204,3 +204,5 @@ rm -f $(which celestia-lightd)
 rm -rf $HOME/.celestia-lightd
 rm -rf $HOME/celestia-lightd
 ```
+
+# Thank you, hope it helps :)
