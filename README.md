@@ -122,7 +122,7 @@ journalctl -u celestia-lightd.service -f
 ```
 
 
-# Copy and save your node ID. We need it to submit some task.
+# Copy and save your node ID. We need it to submit in the form task.
 
 ```bash
 curl -X POST \
