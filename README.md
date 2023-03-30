@@ -82,7 +82,7 @@ celestia light init --p2p.network blockspacerace
 
 ```
 
-# Save Mnemonic sama addressnya, terus ambil faucet di discordnya Celestia pake command $request walletklean
+# Save your Mnemonic and address, then join discord to get faucet with command $request + 'your address'
 
 ```bash
 ./cel-key list --node.type light --p2p.network blockspacerace
@@ -108,7 +108,7 @@ WantedBy=multi-user.target
 EOF
 ```
 
-# Start Services Celestia
+# Start Celestia Services
 
 ```bash
 systemctl enable celestia-lightd
@@ -122,7 +122,7 @@ journalctl -u celestia-lightd.service -f
 ```
 
 
-# Ambil Node ID buat di submit di task
+# Copy and save your node ID. We need it to submit some task.
 
 ```bash
 curl -X POST \
@@ -134,7 +134,7 @@ curl -X POST \
 
 # Input Metric Flags on Node
 
-## Opened Services Celestia
+## Open Celestia Services
 
 ```bash
 nano /etc/systemd/system/celestia-lightd.service
@@ -146,9 +146,8 @@ nano /etc/systemd/system/celestia-lightd.service
 --metrics.tls=false --metrics --metrics.endpoint otel.celestia.tools:4318
 ```
 
-Pastekan Command Di atas di samping blockspacerace, lihat gambar di bawah
+Put this Command in ExecStart variable, put it after --p2p.network blockspacerace
 
-![Bundlr](https://user-images.githubusercontent.com/65535542/228909380-f6303c5e-5319-4aa7-9f78-730807584c49.png)
 
 ## Reload and Restart Your Node
 
