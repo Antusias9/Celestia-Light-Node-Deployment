@@ -183,14 +183,14 @@ systemctl stop celestia-lightd
 ## Check Balance
 
 ```bash
-curl -X GET http://127.0.0.1:26658/balance
+curl -X GET http://127.0.0.1:26659/balance
 
 ```
 
 ## Check Block
 
 ```bash
-curl -X GET http://127.0.0.1:26658/header/1
+curl -X GET http://127.0.0.1:26659/header/1
 ```
 
 # Delete Node
